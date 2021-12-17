@@ -7,22 +7,35 @@ This package will help you to add decoration on DropdownButton
 ## Getting started
 
 To start using this package, add the following lines in pubspec.yaml file.
-```yaml
+```dart
 dependencies:
   decorated_dropdownbutton: ^0.0.1
 ```
 Import package in your script:
-```
+```dart
 import 'package:decorated_dropdownbutton/decorated_dropdownbutton.dart';
 ```
 
 ## Usage
+You can use DecoratedDropdownButton() like below:
+```Dart
+DecoratedDropdownButton(
+    value: "item1",
+    items: [ 
+        DropdownMenuItem(
+            child: Text("Dropdown Item I"), 
+            value: "item1"
+        ),
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
-```dart
-const like = 'sample';
+        DropdownMenuItem(
+            child: Text("Dropdown Item II"), 
+            value: "item2"
+        )
+    ],
+    onChanged: (value){
+       print("You selected $value");
+    },
+)
 ```
 ## Additional information
 
