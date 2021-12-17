@@ -1,4 +1,4 @@
-Use `decorated_dropdown` button to add DropdownButton with decoration properties like box shadow, border, background color, border radius, gradient background, icons, and many more.
+Use `decorated_dropdown` button to add DropdownButton with decoration properties like box shadow, border, background color, border radius, gradient background, icons, and many more in Flutter App.
 
 ## Features
 
@@ -71,6 +71,10 @@ DecoratedDropdownButton(
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+You can get further more information regarding dropdown button in Flutter.
+
+- **[How to Solve DropdownButton Errors in Flutter](https://www.fluttercampus.com/guide/209/solve-dropdownbutton-errors-flutter/)**
+- **[How to Style DropdownButton in Flutter](https://www.fluttercampus.com/guide/211/style-dropdown-button-flutter/)**
+
+Visit, [FlutterCampus.com for Flutter Tutorials, Guides and App Templates](https://www.fluttercampus.com)
+
